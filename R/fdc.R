@@ -14,7 +14,10 @@ fdc <- function (infile) {
   df$i <- 1:length(df$q)
   df$p <- df$i/(length(df$q)+1)
   df[c("q","p")]
-  ggplot(df)+aes(q,p)+geom_line()
+}
+
+fdc_plot <- function(df){
+  ggplot(df)+aes(p, q)+geom_line()+scale_y_continuous(trans='log2')
 }
 
 
