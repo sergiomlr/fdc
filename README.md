@@ -1,5 +1,5 @@
 # fdc
-`fdc` calculates the probability of exceedence for discharge q or other variable. Additionally, `fdc` offers a plot function to visualize the percentiles of the sensitivity analysis results.
+`fdc` calculates the probability of exceedence for discharge "q" or other variable. Additionally, `fdc` offers a plot function to visualize the percentiles of the sensitivity analysis results.
 
 ## Installation
 
