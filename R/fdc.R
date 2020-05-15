@@ -16,6 +16,7 @@ fdc <- function (infile) {
   df[c("q","p")]
 }
 
+#' @export
 fdc_plot <- function(df){
   ggplot(df)+aes(p, q)+geom_line()+scale_y_continuous(trans='log2')
 }
