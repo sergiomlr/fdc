@@ -3,7 +3,7 @@
 #' This function estimates the flow duration curve. It assumes the input is
 #' an atomic vector containting values of a variable i.e. discharge
 
-#'
+#' @import ggplot2
 #' @param infile a numeric list or vector input file
 #' @return A dataframe with variable and probability
 
